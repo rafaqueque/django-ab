@@ -62,7 +62,7 @@ Advanced
             except TemplateDoesNotExist:
                 ab_template_name = template_name
             
-            return render_to_response(template_name)
+            return render_to_response(ab_template_name)
     
 Tips
 ----
